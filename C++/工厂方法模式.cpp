@@ -1,9 +1,9 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<string>
 
 using namespace std;
 
-// ³éÏó²úÆ·Àà
+// æŠ½è±¡äº§å“ç±»
 class Dog
 {
 	public:
@@ -12,7 +12,7 @@ class Dog
 	
 };
 
-// ¾ßÌå²úÆ·Àà£ºĞ¡¹·Íú²Æ 
+// å…·ä½“äº§å“ç±»ï¼šå°ç‹—æ—ºè´¢ 
 class RollDog : public Dog
 {
 	void introduce()
@@ -22,7 +22,7 @@ class RollDog : public Dog
 	}
 };
 
-// ¾ßÌå²úÆ·Àà£º Ğ¡¹·°¢»Æ 
+// å…·ä½“äº§å“ç±»ï¼š å°ç‹—é˜¿é»„ 
 class StraightDog : public Dog
 {
 	void introduce()
@@ -33,13 +33,13 @@ class StraightDog : public Dog
 	
 };
 
-//³éÏó¹¤³§Àà 
+//æŠ½è±¡å·¥å‚ç±» 
 class Store
 {
 	virtual Dog* dog_create()=0;
  }; 
 
-//¾ßÌå¹¤³§Àà 
+//å…·ä½“å·¥å‚ç±» 
 class RollStore: public Store
 {
 	
@@ -51,7 +51,7 @@ class RollStore: public Store
 	
 };
 
-//¾ßÌå¹¤³§Àà 
+//å…·ä½“å·¥å‚ç±» 
 class StraightStore: public Store
 {
 	public:

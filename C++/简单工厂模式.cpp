@@ -1,9 +1,9 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<string>
 
 using namespace std;
 
-// ³éÏó²úÆ·ÀàDog 
+// æŠ½è±¡äº§å“ç±»Dog 
 class Dog
 {
 	public:
@@ -12,7 +12,7 @@ class Dog
 	
 };
 
-// ¾ßÌå²úÆ·Àà£ºĞ¡¹·Íú²Æ 
+// å…·ä½“äº§å“ç±»ï¼šå°ç‹—æ—ºè´¢ 
 class RollDog : public Dog
 {
 	void introduce()
@@ -22,7 +22,7 @@ class RollDog : public Dog
 	}
 };
 
-// ¾ßÌå²úÆ·Àà£º Ğ¡¹·°¢»Æ 
+// å…·ä½“äº§å“ç±»ï¼š å°ç‹—é˜¿é»„ 
 class StraightDog : public Dog
 {
 	void introduce()
@@ -33,7 +33,7 @@ class StraightDog : public Dog
 	
 };
 
-// ¹¤³§Àà 
+// å·¥å‚ç±» 
 class DogStore
 {
 	public:
