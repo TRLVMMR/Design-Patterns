@@ -12,7 +12,7 @@ class Dog
 	
 };
 
-// 具体产品类：小狗旺财 
+// 具体产品类：卷耳狗
 class RollDog : public Dog
 {
 	void introduce()
@@ -22,7 +22,7 @@ class RollDog : public Dog
 	}
 };
 
-// 具体产品类： 小狗阿黄 
+// 具体产品类： 直耳狗
 class StraightDog : public Dog
 {
 	void introduce()
